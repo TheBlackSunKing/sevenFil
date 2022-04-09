@@ -9,6 +9,7 @@
    <children>
       <Label text="Sim: 7 filosofos" />
       <Button fx:id="primaryButton" text="Empezar" onAction="#switchToSecondary"/>
+      <Button fx:id="SecondaryButton" text="Cambiar" onAction="#changeValues"/>
    </children>
    <padding>
       <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />

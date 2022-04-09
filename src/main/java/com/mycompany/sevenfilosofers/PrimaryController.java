@@ -10,7 +10,10 @@ VentanaTabla ventana = new VentanaTabla(); //@TODO Cambiar esto por tabla, y la 
     @FXML
     private void switchToSecondary() throws IOException {
        ventana.setVisible(true);
-       ventana.UpdateValues();
-        App.setRoot("secondary");
+        //App.setRoot("secondary");
     }
+    @FXML
+    private void changeValues() throws IOException {
+        ventana.updateValues();
+    } 
 }
